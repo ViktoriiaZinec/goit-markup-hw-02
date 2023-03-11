@@ -5,15 +5,15 @@
     --accent-color: #4D5AE5;
     --hover-focus-color: #404BBF;
     --primary-bg-color:#E5E5E5;
+    --primary-bg-hero: #2E2F42;
 }
-
-
-
+/*Body style*/
 body{
     background: var(--primary-bg-color);
     color: var(--title-text-color);
 }
 
+/*Navigation section*/
 .logo{
     font-style: normal;
         font-weight: 800;
@@ -39,9 +39,6 @@ body{
 .menu li{
     list-style: none;
     display: inline-block;
-
-  
-
 }
 .menu-link{
     text-decoration: none;
@@ -51,6 +48,8 @@ body{
 .menu-link:focus{
    color: var(--hover-focus-color);
 }
+
+/*Hero section*/
 
 button{
     background: var(--accent-color);
@@ -63,31 +62,17 @@ button{
     border-color: transparent;
     display: inline-block;
     font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
-   
+
+/*Features section*/  
+/*Explanation section*/
+/*Our team section*/
+ /*Footer*/
 
 
 
-
-/*
-navigation,h1, h2
-color: #2E2F42;
-
-mail,phone
-color: #434455;
-
-logo web
-color: #4D5AE5;
-
-text
-color: #434455;
-
-footer text, STUDIO
-
-color: #F4F4FD;
-*/
 
