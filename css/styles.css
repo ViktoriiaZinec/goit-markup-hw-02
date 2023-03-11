@@ -11,14 +11,19 @@
 body{
     background: var(--primary-bg-color);
     color: var(--title-text-color);
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
 }
 
 /*Navigation section*/
 .logo{
+    font-family: 'Raleway';
     font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 21px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .logo-web{
     color: var(--accent-color);
@@ -36,20 +41,48 @@ body{
 .logo-studio:focus{
     color: var(--hover-focus-color);
 }
-.menu li{
+.menu li,
+.contacts li
+{
     list-style: none;
     display: inline-block;
-}
+    }
 .menu-link{
     text-decoration: none;
     color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
 }
 .menu-link:hover,
 .menu-link:focus{
    color: var(--hover-focus-color);
 }
+/*Address section*/
+
+.mail,
+.tel{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
 
 /*Hero section*/
+.hero{
+    background-color: var(--primary-bg-hero);
+    width: 1440px;
+        height: 600px;
+}
+.hero-title{
+    color: #ffffff;
+}
 
 button{
     background: var(--accent-color);
