@@ -4,7 +4,7 @@
     --white-text-color: #ffffff;
     --accent-color: #4D5AE5;
     --hover-focus-color: #404BBF;
-    --primary-bg-color:#E5E5E5;
+    --primary-bg-color:#ffffff;
     --primary-bg-hero: #2E2F42;
     --footer-text-color:#F4F4FD;
 }
@@ -101,7 +101,7 @@ h1{
 }
 
 
-button{
+.hero-button{
     background: var(--accent-color);
     color: var(--white-text-color);
     width: 169px;
@@ -137,6 +137,9 @@ h3{
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     
+}
+.features-title{
+    text-align: left;
 }
 .features li{
     list-style: none;
@@ -217,7 +220,42 @@ h3{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    width: 264px;
 }
+
+/*Portfolio page*/
+
+/*Butttons section*/
+.portfolio-list{
+    list-style: none;
+    display: inline-block;
+}
+.portfolio-button button{
+    color: var(--accent-color);
+    background-color: var(--footer-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+    text-align: center;
+    letter-spacing: 0.04em;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+   
+}
+.portfolio-button button:hover,
+.portfolio-button button:focus
+{
+    color: var(--white-text-color);
+    
+    background-color: var(--accent-color);
+}
+.portfolio-list-img{
+    list-style: none;
+        display: inline-block;
+
+}
+
 
 
 
