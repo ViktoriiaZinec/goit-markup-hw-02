@@ -101,7 +101,7 @@ h1{
 }
 
 
-.hero-button{
+.hero button{
     background: var(--accent-color);
     color: var(--white-text-color);
     width: 169px;
