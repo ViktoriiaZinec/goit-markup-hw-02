@@ -1,0 +1,93 @@
+:root{
+    --primary-text-color: #2E2F42;
+    --title-text-color: #434455;
+    --white-text-color: #ffffff;
+    --accent-color: #4D5AE5;
+    --hover-focus-color: #404BBF;
+    --primary-bg-color:#E5E5E5;
+}
+
+
+
+body{
+    background: var(--primary-bg-color);
+    color: var(--title-text-color);
+}
+
+.logo{
+    font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+}
+.logo-web{
+    color: var(--accent-color);
+    
+}
+.logo-web:hover,
+.logo-web:focus{
+    color: var(--hover-focus-color);
+}
+    
+.logo-studio{
+    color: var(--primary-text-color);
+}
+.logo-studio:hover,
+.logo-studio:focus{
+    color: var(--hover-focus-color);
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+
+  
+
+}
+.menu-link{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+.menu-link:hover,
+.menu-link:focus{
+   color: var(--hover-focus-color);
+}
+
+button{
+    background: var(--accent-color);
+    color: var(--white-text-color);
+    width: 169px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: transparent;
+    display: inline-block;
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+}
+
+   
+
+
+
+
+/*
+navigation,h1, h2
+color: #2E2F42;
+
+mail,phone
+color: #434455;
+
+logo web
+color: #4D5AE5;
+
+text
+color: #434455;
+
+footer text, STUDIO
+
+color: #F4F4FD;
+*/
+
